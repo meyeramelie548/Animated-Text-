@@ -20,7 +20,11 @@ h1 {
   -webkit-background-clip: text;
   background-clip: text;
   margin-bottom: 100px;
+
+  font-size: clamp(40px, 12vw, 150px); 
+  margin-bottom: clamp(40px, 8vw, 100px); 
 }
+
 
 /* 1. Überschrift: ANIMATED TEXT */
 h1:nth-of-type(1) {
@@ -42,4 +46,8 @@ h1:nth-of-type(4) {
   background-image: url(https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyajlnN2swa3NiMTdxbGRodzM4eDJ1ejFmaG9xMnNmZGF0NG5rcjV5byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iBlgTxSS20NLdCxvDW/giphy.gif);
   margin-bottom: 0; 
     }
+ 
+
+
+
   
