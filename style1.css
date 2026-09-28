@@ -3,11 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+html, body{
+  height: 100%;
+}
 
 body {
-  background-color: #686868;
+  background-color: #3b3b3b;
   padding: 40px 5vw;
   container-type: inline-size;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 h1 {
@@ -23,7 +31,7 @@ h1 {
   margin-bottom: 100px;
 white-space: nowrap;
   font-size: 11cqi; 
-  margin-bottom: 8vh; 
+  margin-bottom: 0; 
 }
 
 
